@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo{
+    height: 100px;
+    width: 100x;
+    border-radius: 50px;
+}
+
+header h1{
+    color: rgb(107, 214, 214);
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+header li{
+    list-style: none;
+    text-decoration: none;
+    text-align: end;
+}
+
+p{
+    color: darkcyan;
+    font-weight: 500;
+}
+
+.rrss{
+    height: 25px;
+    width: 25px;
+}
+.contacto{
+    height: 40px;
+    width: 40px;
+}
+
+.carrusel{
+    width: 100%;
+}
+
+.foto-galeria{
+    width: 100%;
+}
+footer h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+main section h2{
+    color: cadetblue;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+main section h3{
+    color: cadetblue;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+main section img{
+    width: 100%;
+}
+
