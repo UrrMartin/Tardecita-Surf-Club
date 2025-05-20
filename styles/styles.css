@@ -10,14 +10,32 @@ body{
 
 .logo{
     height: 100px;
-    width: 100x;
+    width: 100px;
     border-radius: 50px;
 }
+
+.fijado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+header{
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
 
 header h1{
     color: rgb(107, 214, 214);
     font-size: 30px;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -25,12 +43,17 @@ header h1{
 header li{
     list-style: none;
     text-decoration: none;
-    text-align: end;
 }
 
 p{
     color: darkcyan;
     font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+
 }
 
 .rrss{
@@ -54,11 +77,18 @@ footer h2{
     font-weight: 400;
 }
 
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+
 main section h2{
     color: cadetblue;
     font-size: 22px;
     text-transform: uppercase;
-    text-align: center;
 
 }
 main section h3{
@@ -66,7 +96,15 @@ main section h3{
     font-size: 22px;
     text-transform: uppercase;
 }
-main section img{
+.bckgimg{
     width: 100%;
 }
 
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 20px;
+}
